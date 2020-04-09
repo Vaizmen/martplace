@@ -1,0 +1,12 @@
+@import 'global';
+@import 'vars';
+@import 'fonts';
+@import 'media';
+
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+
+}
