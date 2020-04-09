@@ -103,37 +103,119 @@ justify-content: space-between;
         height: 46px;
         border-radius: 18px;
         border: 1px solid #d9dfe5;
-        
+        padding-left: 26px;
         font-size: 15px;
         font-weight: 400;
         &::placeholder{
-            color: #898f96;
+            color: #898f96;       
+            
         }
     }
     button{
         background-color: $search;
         width: 70px;
-        height: 46px;
+        height: 100%;
         border-radius: 18px;
         border: none;
         position: absolute;
         top: 0px;
         right: 0;
-        img{
-            height: 16px;
-            width: 16px;
-        }
+       cursor: pointer;
     }
 }
-.magnifier {
-    font-size: 15px;
-    font-family: "Linearicons";
-    color: rgb(255, 255, 255);
-    line-height: 2;
-    text-align: left;
-    position: absolute;
-    left: 1485.997px;
-    top: 153.237px;
-    z-index: 751;
-  }
-  
+// END HEADER
+// START SEARCH
+
+.search{
+    background-color: $blue;
+    &__inner{
+        padding-top: 170px;
+        text-align: center;
+        color: #fff;
+    }
+    &__title{
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 27px;
+    }
+    &__test{
+        font-size: 60px;
+        font-weight: 700;
+        margin-bottom: 52px;
+    }
+    &__text{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 70px;
+    }
+    &__bts{
+        
+       padding-bottom: 235px;
+        margin: 0 auto;
+        
+    }
+    &__btn{
+        min-width: 190px;
+        height: 57px;
+        font-size: 16px;
+        font-weight: 400;
+        border: 1px solid #fff;
+        border-radius: 23px;
+        color: #fff;
+        padding-top: 18px;
+        &:hover{
+            background-color: #fff;
+            color: $search;
+        }
+        &+&{
+            margin-left: 31px;
+        }
+    }
+        
+}
+// END SEARCH
+// START features
+
+.features{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        padding: 188px 0 120px;
+        :hover{
+            box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+            border-radius: 4px;
+        }
+    }
+    &__box{
+        
+        width: 360px;
+        
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 195px;
+        padding: 0 35px 53px;
+        :hover{
+            box-shadow: none;
+        }
+        img{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-bottom: 40px;
+        }
+        &+&{
+            margin-left: 30px;
+        }
+    }
+    &__title{
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    &__text{
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+  // END features
+  // START features
