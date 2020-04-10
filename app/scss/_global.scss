@@ -11,8 +11,9 @@ html {
   html,
   body {
     height: 100%;
-    position: relative;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    
   
   }
   
@@ -35,10 +36,10 @@ html {
     display: inline-block;
   }
   
-//   button:focus,
-//   input:focus {
-//     outline: transparent;
-//   }
+  button:focus,
+  input:focus {
+    outline: transparent;
+  }
   .container{
       max-width: 1170px;
       margin: 0 auto;
