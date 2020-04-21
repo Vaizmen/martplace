@@ -40,6 +40,21 @@ html {
   input:focus {
     outline: transparent;
   }
+  html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
   .container{
       max-width: 1170px;
       margin: 0 auto;
@@ -69,3 +84,4 @@ html {
         padding-bottom: 60px;
         line-height: 30px;
   }
+  
